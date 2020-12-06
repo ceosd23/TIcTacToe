@@ -15,13 +15,19 @@ For Testing
 Note
   If using JDK 8 Then It is not necessary to download JAVAFX
   as it is bundled.
-#DEVELOPMENT & TEST PURPOSE
-* START PPOJECT WITH MAVEN
-* USE **mvn clean javafx:run** for running the application.
+#DEVELOPMENT 
+* START PROJECT WITH MAVEN
+* USE **mvn clean javafx:run** for running the application from command  prompt or terminal.
+  #TEST PURPOSE
 * use **mvn test** for Testing the application \
+* Tested the button work and moving to new component. \
+* Tested the algorithm for computer player Choice on User Input.
+* Tested the Flow of data from UI to background code. 
+  
 * If Error for JAVAFML Not Found Occurs Download fxml directly from
-* https://openjfx.io/
-* And add it to run Configuration in place of $PATH_TO_FX$
+ https://openjfx.io/
+ And add it to run Configuration in place of $PATH_TO_FX$ if trying to use
+  VSCODE or IntelliJ.
 
 # APPLICATION
 Application Start with an welcome page having two option
