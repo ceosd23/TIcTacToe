@@ -68,10 +68,26 @@
         </resources>
             <plugins>
                 <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>3.8.1</version>
+                    <configuration>
+                        <release>14</release>
+                    </configuration>
+
+                </plugin>
+                <plugin>
                     <groupId>org.openjfx</groupId>
                     <artifactId>javafx-maven-plugin</artifactId>
                     <version>0.0.5</version>
                     <configuration>
+                        <stripDebug>true</stripDebug>
+                        <compress>2</compress>
+                        <noHeaderFiles>true</noHeaderFiles>
+                        <noManPages>true</noManPages>
+                        <launcher>TicTacToe</launcher>
+                        <jlinkImageName>TicTacToe</jlinkImageName>
+                        <jlinkZipName>TicTacToeCompress</jlinkZipName>
                         <mainClass>TicTacToe</mainClass>
                     </configuration>
                 </plugin>

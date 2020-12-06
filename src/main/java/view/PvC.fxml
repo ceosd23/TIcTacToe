@@ -9,7 +9,7 @@
     <children>
         <ImageView fitHeight="452.0" fitWidth="921.0" layoutX="-89.0" pickOnBounds="true" preserveRatio="true">
             <image>
-                <Image url="@../images/screen.png" />
+                <Image url="@../backimages/screen.png" />
             </image>
         </ImageView>
 

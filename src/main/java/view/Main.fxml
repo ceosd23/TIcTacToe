@@ -17,7 +17,7 @@
             <children>
                 <ImageView fitHeight="452.0" fitWidth="921.0" layoutX="-254.0" pickOnBounds="true" preserveRatio="true">
                     <image>
-                        <Image url="@../images/game.png" />
+                        <Image url="@../backimages/game.png" />
                     </image>
                 </ImageView>
                 <Button graphicTextGap="0.0" fx:id="pvpButton" layoutX="35.0" onAction="#gotoPvPScreen" layoutY="333.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="146.0" text="Player vs Player" textAlignment="CENTER" />
